@@ -1,0 +1,23 @@
+filebeat.inputs:
+- type: log
+  enabled: true
+  paths:
+    - log/demo.svc.log
+  fields:
+    type: demo.svc
+    country: SG
+    application: demo-svc
+  fields_under_root: true
+logging:
+  to_syslog: false
+  to_files: true
+  files:
+    path: filebeat/filebeat_ops/logs
+    name: filebeat_kafka.log
+  level: info
+# output.file:
+#   enabled: true
+#   path: "/tmp/filebeat"
+#   filename: filebeat
+output.console:
+  enabled: true

@@ -1,0 +1,17 @@
+2023-03-24T09:46:24.468+08:00  INFO 7947 --- [main] com.example.demo.DemoApplicationKt       : Starting DemoApplicationKt using Java 17.0.6 with PID 7947 (/Users/chiaweizhengterry/Desktop/Work/demo/target/classes started by chiaweizhengterry in /Users/chiaweizhengterry/Desktop/Work/demo)
+2023-03-24T09:46:24.469+08:00  INFO 7947 --- [main] com.example.demo.DemoApplicationKt       : No active profile set, falling back to 1 default profile: "default"
+2023-03-24T09:46:24.820+08:00  INFO 7947 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-24T09:46:24.824+08:00  INFO 7947 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-24T09:46:24.824+08:00  INFO 7947 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-24T09:46:24.860+08:00  INFO 7947 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-24T09:46:24.860+08:00  INFO 7947 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 369 ms
+2023-03-24T09:46:25.163+08:00  INFO 7947 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-24T09:46:25.168+08:00  INFO 7947 --- [main] com.example.demo.DemoApplicationKt       : Started DemoApplicationKt in 0.867 seconds (process running for 1.221)
+2023-03-24T09:46:28.651+08:00  INFO 7947 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-24T09:46:28.652+08:00  INFO 7947 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-24T09:46:28.652+08:00  INFO 7947 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-03-24T09:46:28.664+08:00  INFO 7947 --- [http-nio-8080-exec-1] com.example.demo.HomeController          : Hello Everyone!
+2023-03-24T09:46:29.674+08:00  INFO 7947 --- [http-nio-8080-exec-3] com.example.demo.HomeController          : Hello Everyone!
+2023-03-24T10:02:56.441+08:00  INFO 9882 --- [main] com.example.demo.DemoApplicationTests    : Starting DemoApplicationTests using Java 17.0.6 with PID 9882 (started by chiaweizhengterry in /Users/chiaweizhengterry/Desktop/Work/test-filebeat/demo)
+2023-03-24T10:02:56.442+08:00  INFO 9882 --- [main] com.example.demo.DemoApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2023-03-24T10:02:57.022+08:00  INFO 9882 --- [main] com.example.demo.DemoApplicationTests    : Started DemoApplicationTests in 0.709 seconds (process running for 1.127)
